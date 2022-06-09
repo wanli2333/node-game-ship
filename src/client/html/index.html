@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star wars</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="Join-box">
+        <h3>
+            <img src="./assets/planet.svg" alt="" />
+            <span>Star wars</span>
+        </h3>
+        <input type="text" maxlength="8" placeholder="..." />
+        <p>
+            <button>开 始</button>
+        </p>
+    </div>
+
+    <div class="game hide">
+        <div class="leaderboard">
+            <ul>
+            </ul>
+        </div>
+        <canvas id="cnv"></canvas>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*,html,body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+canvas {
+    box-shadow: 0 0 10px 5px #2B2E41;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.Join-box {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #2B2E41;
+    box-shadow: 8px 8px 15px 0px #b3b3b3;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #ffffff;
+    padding: 20px 22px;
+}
+
+.Join-box > h3 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Join-box > h3 img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+.Join-box input {
+    height: 40px;
+    padding: 5px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+    outline: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Join-box p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Join-box button {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #2B2E41;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.Join-box button:active {
+    color: #cccccc;
+}
+
+.leaderboard {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 130px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    color: #ffffff;
+    user-select: none;
+}
+
+.leaderboard ul {
+    padding: 0;
+}
+
+.leaderboard ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.leaderboard ul li:nth-of-type(1) {
+    /* background: linear-gradient(#ffe291, #ff9300); */
+    color: #ff9300;
+}
+
+.leaderboard ul li:nth-of-type(2) {
+    /* background: linear-gradient(#8fb6ec, #6699de); */
+    color: #6699de;
+}
+
+.leaderboard ul li:nth-of-type(3) {
+    /* background: linear-gradient(#7bded9, #34beb7); */
+    color: #34beb7;
+}
+
+.leaderboard ul li span {
+    overflow: hidden;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.leaderboard ul li span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 14px;
+    width: 20px;
+}
+
+.leaderboard ul li span:nth-of-type(2) {
+    flex: 1;
+    padding: 0 5px;
+}
+
+.leaderboard ul li span:nth-of-type(3) {
+    width: 22px;
+    text-align: right;
+}
+
+.game {
+    position: relative;
+    width: 900px;
+    margin: 20px auto auto;
+}
