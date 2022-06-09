@@ -4,4 +4,5 @@
 # npm run serve 服务端运行
 
 # 运行示例
+[打开试玩](https://ship.heyali.cn)
 ![example.png](example.png)
